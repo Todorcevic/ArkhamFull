@@ -1,0 +1,92 @@
+[
+    {
+        "Id": "01001",
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "CardRequeriments": [
+            "01000",
+            "01006",
+            "01007"
+        ],
+        "DeckBuildingFactionConditions": [
+            "guardian",
+            "seeker",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [ 5, 2, 5 ]
+    },
+    {
+        "Id": "01002",
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "CardRequeriments": [
+            "01000",
+            "01008",
+            "01009"
+        ],
+        "DeckBuildingFactionConditions": [
+            "seeker",
+            "mystic",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [ 5, 2, 5 ]
+    },
+    {
+        "Id": "01003",
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "CardRequeriments": [
+            "01000",
+            "01010",
+            "01011"
+        ],
+        "DeckBuildingFactionConditions": [
+            "rogue",
+            "guardian",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [ 5, 2, 5 ]
+    },
+    {
+        "Id": "01004",
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "CardRequeriments": [
+            "01000",
+            "01012",
+            "01013"
+        ],
+        "DeckBuildingFactionConditions": [
+            "mystic",
+            "survivor",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [ 5, 2, 5 ]
+    },
+    {
+        "Id": "01005",
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "CardRequeriments": [
+            "01000",
+            "01014",
+            "01015"
+        ],
+        "DeckBuildingFactionConditions": [
+            "survivor",
+            "rogue",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [ 5, 2, 5 ]
+    }
+]

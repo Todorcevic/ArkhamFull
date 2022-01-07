@@ -1,0 +1,194 @@
+[
+    {
+        "Id": "01001",
+        "DeckPosition": 1,
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "ListCardsID": [
+            "01018",
+            "01022",
+            "01022",
+            "01023",
+            "01023",
+            "01019",
+            "01017",
+            "01017",
+            "01016",
+            "01016",
+            "01020",
+            "01020",
+            "01021",
+            "01021",
+            "01025",
+            "01025",
+            "01086",
+            "01086",
+            "01087",
+            "01087",
+            "01091",
+            "01091",
+            "01090",
+            "01089",
+            "01088",
+            "01093",
+            "01093",
+            "01031",
+            "01032",
+            "01092",
+            "01068",
+            "01096",
+            "01008",
+            "01042",
+            "01042",
+            "01040",
+            "01040",
+            "01040",
+            "01040"
+        ],
+        "CardRequeriments": [
+            "01000",
+            "01006",
+            "01007"
+        ],
+        "DeckBuildingFactionConditions": [
+            "guardian",
+            "seeker",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [
+            5,
+            2,
+            5
+        ]
+    },
+    {
+        "Id": "01002",
+        "DeckPosition": 0,
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "ListCardsID": [],
+        "CardRequeriments": [
+            "01000",
+            "01008",
+            "01009"
+        ],
+        "DeckBuildingFactionConditions": [
+            "seeker",
+            "mystic",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [
+            5,
+            2,
+            5
+        ]
+    },
+    {
+        "Id": "01003",
+        "DeckPosition": 2,
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "ListCardsID": [
+            "01046",
+            "01047",
+            "01051",
+            "01051",
+            "01052",
+            "01052",
+            "01048",
+            "01048",
+            "01050",
+            "01050",
+            "01046",
+            "01045",
+            "01045",
+            "01049",
+            "01049",
+            "01053",
+            "01053",
+            "01047",
+            "01091",
+            "01091",
+            "01087",
+            "01087",
+            "01088",
+            "01024",
+            "01019",
+            "01018",
+            "01086",
+            "01092",
+            "01092",
+            "01044",
+            "01055"
+        ],
+        "CardRequeriments": [
+            "01000",
+            "01010",
+            "01011"
+        ],
+        "DeckBuildingFactionConditions": [
+            "rogue",
+            "guardian",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [
+            5,
+            2,
+            5
+        ]
+    },
+    {
+        "Id": "01004",
+        "DeckPosition": 0,
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "ListCardsID": [],
+        "CardRequeriments": [
+            "01000",
+            "01012",
+            "01013"
+        ],
+        "DeckBuildingFactionConditions": [
+            "mystic",
+            "survivor",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [
+            5,
+            2,
+            5
+        ]
+    },
+    {
+        "Id": "01005",
+        "DeckPosition": 0,
+        "PhysicalTrauma": 0,
+        "MentalTrauma": 0,
+        "Xp": 0,
+        "DeckSize": 30,
+        "ListCardsID": [],
+        "CardRequeriments": [
+            "01000",
+            "01014",
+            "01015"
+        ],
+        "DeckBuildingFactionConditions": [
+            "survivor",
+            "rogue",
+            "neutral"
+        ],
+        "DeckBuildingXpConditions": [
+            5,
+            2,
+            5
+        ]
+    }
+]

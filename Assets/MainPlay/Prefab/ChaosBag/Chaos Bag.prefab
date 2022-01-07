@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1203701121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203701122}
+  m_Layer: 0
+  m_Name: Token Preview
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203701122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203701121}
+  m_LocalRotation: {x: 0, y: 0.92387956, z: -0.38268343, w: 0}
+  m_LocalPosition: {x: 0, y: -9.83, z: 1.26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7629224610276816168}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 45, y: 180, z: 0}
+--- !u!1 &6898154002695931707
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7629224610276816168}
+  - component: {fileID: 3497032640196851606}
+  m_Layer: 0
+  m_Name: Chaos Token
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7629224610276816168
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898154002695931707}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 9.605, z: -2.18}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 1203701122}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3497032640196851606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898154002695931707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab916d46c82eff7479f433b351b0e587, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tokenMaterials:
+  - {fileID: 2100000, guid: 66009e2a66b108642ad6ba08c421b7d6, type: 2}
+  - {fileID: 2100000, guid: 39b86292a8aad1845adcf7cd38b77346, type: 2}
+  - {fileID: 2100000, guid: e2eb7ae2b3d43d740b1db868a628cd65, type: 2}
+  - {fileID: 2100000, guid: f219b15759db94e44959b2aec6fe3167, type: 2}
+  - {fileID: 2100000, guid: 0461fa800ade75d4faa33deb1313738a, type: 2}
+  - {fileID: 2100000, guid: 853203e9dc1936146a7aa41b38af297f, type: 2}
+  - {fileID: 2100000, guid: 486d9f3e00ab43a4d935f1f4d5cff27f, type: 2}
+  - {fileID: 2100000, guid: a3073e7d27d81664d8efc028fe39a59d, type: 2}
+  - {fileID: 2100000, guid: 3103a18ee8470414ca3e811702ae7990, type: 2}
+  - {fileID: 2100000, guid: 6516bc58b1fa0a34fb94e3300d89f794, type: 2}
+  - {fileID: 2100000, guid: 868849c4405c0c449850dac56d292055, type: 2}
+  - {fileID: 2100000, guid: 337e377e0117e844598130ccdc4feeda, type: 2}
+  - {fileID: 2100000, guid: 4a22941f1b0ab16498364a179757098f, type: 2}
+  - {fileID: 2100000, guid: 43794a3534c68cd49b49eda686137268, type: 2}
+  - {fileID: 2100000, guid: ee2f952cb53d9ea459694cec21df48b8, type: 2}
+  - {fileID: 2100000, guid: 91c25940fc849414788b8e970a2d99fa, type: 2}
+  - {fileID: 2100000, guid: e5ed75f3103d4d449b7a2b34370c78f3, type: 2}
+  tokenPreview: {fileID: 1203701122}
+  tokenPrefab: {fileID: 3801168005814294638, guid: ec947973067a41b49bb8e91a12bf8b87,
+    type: 3}

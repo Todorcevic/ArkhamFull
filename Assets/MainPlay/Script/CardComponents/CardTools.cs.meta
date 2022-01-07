@@ -1,0 +1,49 @@
+fileFormatVersion: 2
+guid: 448aaf75b80f8504483f836bd63d4518
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cardComponent: {instanceID: 0}
+  - rotationTransformCard: {instanceID: 0}
+  - rendFront: {instanceID: 0}
+  - rendBack: {instanceID: 0}
+  - buffSpritePrefab: {instanceID: 0}
+  - buffBox: {instanceID: 0}
+  - cardCanvas: {instanceID: 0}
+  - infoBox: {instanceID: 0}
+  - infoFront: {instanceID: 0}
+  - infoBack: {instanceID: 0}
+  - visualOwner: {instanceID: 0}
+  - locationClues: {instanceID: 0}
+  - giveClues: {instanceID: 0}
+  - enemyLife: {instanceID: 0}
+  - shroud: {instanceID: 0}
+  - investigatorStats: {instanceID: 0}
+  - locationCluesValue: {instanceID: 0}
+  - giveCluesValue: {instanceID: 0}
+  - enemyLifeValue: {instanceID: 0}
+  - shroudValue: {instanceID: 0}
+  - investigatorWillpowerValue: {instanceID: 0}
+  - investigatorIntellectValue: {instanceID: 0}
+  - investigatorCombatValue: {instanceID: 0}
+  - investigatorAgilityValue: {instanceID: 0}
+  - infoEffect: {instanceID: 0}
+  - tokensBox: {instanceID: 0}
+  - cardMesh: {instanceID: 0}
+  - healthToken: {instanceID: 0}
+  - sanityToken: {instanceID: 0}
+  - glowImage: {instanceID: 0}
+  - active: {instanceID: 0}
+  - inactive: {instanceID: 0}
+  - selected: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - selectCardClip: {fileID: 8300000, guid: c7f1c3de1e2da314fb6e198b01f932e3, type: 3}
+  - deselectCardClip: {instanceID: 0}
+  - enterCardClip: {instanceID: 0}
+  - exitCardClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

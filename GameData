@@ -1,0 +1,12 @@
+{
+  "IsAFinishGame": true,
+  "IsNotFirstScenario": true,
+  "Chapter": "Core",
+  "Scenario": "Scenario2",
+  "ScenarioResolutions": {
+    "LeadHome": 0
+  },
+  "FullScenarioName": "CoreScenario2",
+  "Language": 1,
+  "Difficulty": 2
+}

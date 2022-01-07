@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 60c72e16175303b46977fed4a7c249ed
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stayCard: {instanceID: 0}
+  - showCard: {instanceID: 0}
+  - cardPreview: {instanceID: 0}
+  - selectCardClip: {fileID: 8300000, guid: c7f1c3de1e2da314fb6e198b01f932e3, type: 3}
+  - deselectCardClip: {fileID: 8300000, guid: c3871dd915471ba45963a245fa770988, type: 3}
+  - enterCardClip: {fileID: 8300000, guid: b41865808bfaf1c44978940d8be17ade, type: 3}
+  - exitCardClip: {fileID: 8300000, guid: 037f4526cbb0942499f88d5fa80a3bc0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

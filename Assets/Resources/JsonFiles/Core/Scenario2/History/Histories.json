@@ -1,0 +1,32 @@
+﻿[
+    {
+        "id": "scenario2_intro1",
+        "title": "Parte II: Las máscaras de medianoche",
+        "text": "La mujer se acerca a vosotros presa del pánico, desvariando sobre unos monstruos que surgieron del suelo en una casa cerca del Barrio Fluvial.\n –Logré atraparlos –explica–. Pero hay más. Otros pozos. Otros dominios.\nLa semana pasada la habríais tomado por loca. Sin embargo, los sucesos recientes han puesto a prueba vuestras ideas preconcebidas sobre la normalidad. Decidís escucharla.\nSe presenta como Lita Chantler, y os cuenta un relato que resulta casi imposible de creer.\n–Las criaturas de las que hablo –afirma– se llaman gules. Son seres crueles que infestan las criptas, cavernas y túneles que hay bajo Arkham...",
+        "image": "core6"
+    },
+    {
+        "id": "scenario2_intro2",
+        "title": "Parte II: Las máscaras de medianoche",
+        "text": "Tras el desastre de tu casa, Lita Chantler, la mujer pelirroja que estaba en tu salita, os cuenta un relato casi imposible de creer, incluso después de todo lo que habéis presenciado.\n–Las criaturas de tu casa –afirma– se llaman gules. Son seres crueles que infestan las criptas, cavernas y túneles que hay bajo Arkham...",
+        "image": "core6"
+    },
+    {
+        "id": "scenario2_intro3",
+        "title": "Parte II: Las máscaras de medianoche",
+        "text": "–Estas criaturas se alimentan de los cadáveres humanos, y tienen a su servicio una oscura secta de Arkham, cuyos miembros llegaron de forma inexplicable a adorar al antiguo amo de los gules. Esta secta ha estado matando a gente inocente para dárselos de comer a los gules y saciar su monstruosa hambre. Así se mantenía un siniestro equilibrio. Hasta ahora. Hace poco –prosigue Lita–, una de sus guaridas, donde almacenaban los cadáveres, fue destruida. Desde entonces, los gules han estado más activos que de costumbre. He seguido sus movimientos y he tratado como he podido de evitar que se desmandasen por toda la ciudad. Pero creo que hay algo peor en marcha. La secta ha estado planeando algo más siniestro y amenazador que nada que haya contemplado hasta la fecha. Todos los indicios apuntan a que este plan fructificará hoy, poco después de la medianoche. Después de ese punto, no logro ni siquiera atisbar qué ocurrirá.\n–Muchos de los sectarios –continúa Lita– parecen gente común y corriente pese a sus terribles intenciones. Cuando se reúne la secta, sus miembros llevan máscaras con forma de cráneos de distintos animales para proteger sus identidades incluso entre ellos. Estas máscaras son nuestro objetivo. Son símbolos de muerte y putrefacción. Debemos desenmascarar a los sectarios para exponer y desbaratar sus planes. Apenas tenemos unas horas. Cuantos más sectarios encontremos antes de la medianoche, mejor.",
+        "image": "core7"
+    },
+    {
+        "id": "scenario2_resolution1",
+        "title": "Resolución 1",
+        "text": "Habéis logrado obtener informacion útil sobre la secta y su planes. Ahora sólo queda esperar que sea suficiente.",
+        "image": "core8"
+    },
+    {
+        "id": "scenario2_resolution2",
+        "title": "Resolución 2",
+        "text": "Suenan doce campanadas, señalando la medianoche. Se ha acabado el tiempo; pronto comenzará el ritual de la secta.",
+        "image": "core9"
+    }
+]
