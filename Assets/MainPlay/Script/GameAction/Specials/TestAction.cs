@@ -17,7 +17,7 @@ namespace ArkhamGamePlay
         //List<string> encounterDeck = GameControl.Deck[DeckType.Encounter];
         List<string> encounterDiscard = new List<string>() { "01166", "01159", "01119" };
 
-        List<string> player1Hand = new List<string>() { "01031", "01016", "01022", "01022", "01053" };
+        List<string> player1Hand = new List<string>() { "01038", "01016", "01022", "01022", "01053" };
         List<string> player1Deck = new List<string>() { "01089", "01088", "01093" };
         List<string> player1Discard = new List<string>() { "01086", "01087" };
 
@@ -68,15 +68,15 @@ namespace ArkhamGamePlay
             yield return MoveListCards(encounterDiscard, AllComponents.Table.EncounterDiscard);
 
             /*Locations*/
-            yield return new MoveCardAction(Estudio, AllComponents.Table.LocationZones[1], isFast: true).RunNow();
-            //yield return new MoveCardAction(Salita, AllComponents.Table.LocationZones[7], isFast: true).RunNow();
-            //yield return new MoveCardAction(Atico, AllComponents.Table.LocationZones[12], isFast: true).RunNow();
-            //yield return new MoveCardAction(Sotano, AllComponents.Table.LocationZones[2], isFast: true).RunNow();
-            //yield return new MoveCardAction(Pasillo, AllComponents.Table.LocationZones[6], isFast: true).RunNow();
+            //yield return new MoveCardAction(Estudio, AllComponents.Table.LocationZones[1], isFast: true).RunNow();
+            yield return new MoveCardAction(Salita, AllComponents.Table.LocationZones[7], isFast: true).RunNow();
+            yield return new MoveCardAction(Atico, AllComponents.Table.LocationZones[12], isFast: true).RunNow();
+            yield return new MoveCardAction(Sotano, AllComponents.Table.LocationZones[2], isFast: true).RunNow();
+            yield return new MoveCardAction(Pasillo, AllComponents.Table.LocationZones[6], isFast: true).RunNow();
 
             /*Player1*/
             yield return new MoveCardAction(Investigador1Card, investigator1.InvestigatorZone, withPreview: true).RunNow();
-            yield return new MoveCardAction(PlayCard1, Estudio.MyOwnZone).RunNow();
+            yield return new MoveCardAction(PlayCard1, Pasillo.MyOwnZone).RunNow();
             yield return new UpdateActionsLeft(investigator1, investigator1.InitialActions).RunNow();
             yield return MoveListCards(player1Hand, investigator1.Hand);
             yield return MoveListCards(player1Deck, investigator1.InvestigatorDeck, back: true);
@@ -86,7 +86,7 @@ namespace ArkhamGamePlay
 
             /*Player2*/
             yield return new MoveCardAction(Investigador2Card, investigator2.InvestigatorZone, withPreview: true).RunNow();
-            yield return new MoveCardAction(PlayCard2, Estudio.MyOwnZone).RunNow();
+            yield return new MoveCardAction(PlayCard2, Pasillo.MyOwnZone).RunNow();
             yield return new UpdateActionsLeft(investigator2, investigator2.InitialActions).RunNow();
             yield return MoveListCards(player2Hand, investigator2.Hand);
             yield return MoveListCards(player2Deck, investigator2.InvestigatorDeck, back: true);
@@ -105,11 +105,11 @@ namespace ArkhamGamePlay
             /*Enemies*/
             //yield return new MoveCardAction(GetCard("01102"), investigator1.Threat, isFast: true, isBack: false).RunNow();
             //yield return new MoveCardAction(Rata, investigator1.Threat, isFast: true).RunNow();
-            //yield return new MoveCardAction(SacerdoteGul, investigator1.Threat, isFast: true, isBack: false).RunNow();
+            //yield return new MoveCardAction(SacerdoteGul, Sotano.MyOwnZone, isFast: true, isBack: false).RunNow();
             //yield return new ExaustCardAction(Rata, withPause: false).RunNow();
             //yield return new ExaustCardAction(SacerdoteGul, withPause: false).RunNow();
             //yield return new MoveCardAction(GetCard("01159"), investigator1.Threat, isFast: true).RunNow();
-            //yield return new MoveCardAction(GetCard("01161"), Atico.MyOwnZone, isFast: true, isBack: false).RunNow();
+            yield return new MoveCardAction(GetCard("01101"), Sotano.MyOwnZone, isFast: true, isBack: false).RunNow();
             //yield return new MoveCardAction(GulGelido, Salita.MyOwnZone, isFast: true).RunNow();
 
 
@@ -126,10 +126,10 @@ namespace ArkhamGamePlay
 
             /*Tokens*/
             //yield return new AddTokenAction(SacerdoteGul.HealthToken, 9).RunNow();
-            yield return new AddTokenAction(Investigador1Card.CluesToken, 2).RunNow();
+            yield return new AddTokenAction(Investigador1Card.CluesToken, 3).RunNow();
             //yield return new AddTokenAction(Investigador1Card.CluesToken, 12).RunNow();
             //yield return new AddTokenAction(Investigador1Card.HealthToken, 8).RunNow();
-            yield return new AddTokenAction(Investigador2Card.CluesToken, 1).RunNow();
+            yield return new AddTokenAction(Investigador2Card.CluesToken, 4).RunNow();
             //yield return new AddTokenAction(Investigador1Card.SanityToken, 7).RunNow();
             //yield return new AddTokenAction(SacerdoteGul.HealthToken, 9).RunNow();
             //yield return new AddTokenAction(Investigador2Card.CluesToken, 2).RunNow();

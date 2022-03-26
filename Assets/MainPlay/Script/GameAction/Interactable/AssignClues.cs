@@ -64,7 +64,7 @@ namespace ArkhamGamePlay
             if (CluesAmount < (cluesLimit ?? 1))
             {
                 string cluesLeft = string.Empty;
-                if (cluesLimit != null) cluesLeft = " (" + (cluesLimit - CluesAmount) + " pistas por entregar)";
+                if (cluesLimit != null) cluesLeft = " (" + (CluesAmount) + " pistas de " + cluesLimit + ")";
                 IsCancel = true;
                 AllComponents.ReadyButton.SetReadyButton(this, state: ButtonState.StandBy);
                 AllComponents.ReadyButton.ChangeButtonText("Cancelar" + cluesLeft);

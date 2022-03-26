@@ -61,5 +61,10 @@ namespace ArkhamGamePlay
                 yield return new MoveCardAction(enemy, moveCardAction.OldZone, isFast: true).RunNow();
             yield return new WaitWhile(() => DOTween.IsTweening("MoveCard"));
         }
+
+        protected override IEnumerator PlayCardFromHand()
+        {
+            yield return new MoveCardAction(ThisCard, ZoneToPlayFromHand, withPreview: false).RunNow();
+        }
     }
 }

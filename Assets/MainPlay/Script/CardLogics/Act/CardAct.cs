@@ -15,7 +15,7 @@ namespace ArkhamGamePlay
             if (gameAction is InteractableAction interactableAction && GiveClues(interactableAction))
                 interactableAction.CardEffects.Add(new CardEffect(
                     card: ThisCard,
-                    effect: () => new AssignClues(GameControl.AllInvestigatorsInGame.FindAll(c => c.InvestigatorCardComponent.CluesToken.Amount > 0)).RunNow(),
+                    effect: () => new AssignClues(GameControl.AllInvestigatorsInGame.FindAll(c => c.InvestigatorCardComponent.CluesToken.Amount > 0), CluesNeeded).RunNow(),
                     type: EffectType.Instead,
                     name: "Entregar pistas al Plan"
                     ));
