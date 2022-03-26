@@ -34,7 +34,7 @@ namespace ArkhamGamePlay
         void Start()
         {
             GameControl.CurrentAction = new VoidAction();
-            if (isTestMode) new TestAction2().AddActionTo();
+            if (isTestMode) new TestAction().AddActionTo();
             else new SettingGame().AddActionTo();
             StartCoroutine(GameControl.CurrentAction.RunNow());
         }

@@ -39,7 +39,7 @@ namespace ArkhamShared
         public bool IsAFinishGame { get; set; }
         public bool IsNotFirstScenario => Scenario != "Scenario1";
         public string Chapter { get; set; } = "Core";
-        public string Scenario { get; set; } = "Scenario2";
+        public string Scenario { get; set; } = "Scenario1";
         public Chapter1Data ChapterData { get; set; } = new Chapter1Data();
         [JsonIgnore] public string FullScenarioName => Chapter + Scenario;
         public Language Language { get; set; } = Language.ES;

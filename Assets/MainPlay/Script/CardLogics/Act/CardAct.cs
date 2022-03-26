@@ -1,8 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using System.Linq;
-using ArkhamShared;
+using UnityEngine;
 
 namespace ArkhamGamePlay
 {
@@ -31,9 +29,8 @@ namespace ArkhamGamePlay
 
         bool GiveClues(InteractableAction interactableAction)
         {
-            if (GameControl.TurnInvestigator == null) return false;
             if (!interactableAction.CanPlayFastAction) return false;
-            if (!GameControl.AllInvestigatorsInGame.Exists(c => c.InvestigatorCardComponent.CluesToken.Amount > 0)) return false;
+            if (GameControl.AllInvestigatorsInGame.Sum(c => c.InvestigatorCardComponent.CluesToken.Amount) < CluesNeeded) return false;
             return true;
         }
 

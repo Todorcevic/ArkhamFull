@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using ArkhamShared;
+using UnityEngine;
 
 namespace ArkhamGamePlay
 {
@@ -12,7 +13,9 @@ namespace ArkhamGamePlay
         {
             AllComponents.PhasesUI.SettingGamePhase();
             if (!GameData.Instance.IsNotFirstScenario)
+            {
                 yield return new PanelHistoryAction(GameData.Instance.FullScenarioName).RunNow();
+            }
             yield return new SetChaosBagAction(testMode: false).RunNow();
             foreach (InvestigatorComponent investigator in GameControl.AllInvestigatorsInGame)
             {
